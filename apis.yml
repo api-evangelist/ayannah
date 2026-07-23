@@ -1,7 +1,20 @@
 aid: ayannah
 name: Ayannah
-description: Ayannah is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ayannah (Ayannah Information Systems, Inc.) is a Philippines-based fintech
+  company providing digital finance and digital commerce services to the
+  emerging middle class across emerging markets, many of whom are migrants
+  and/or unbanked. It operates a market-proven stack of digital financial
+  services spanning payments, commerce, and analytics, reporting 10K+
+  touchpoints and 50M+ transactions processed. Marquee products include Sendah
+  Direct (a B2B SaaS payment platform for retailers offering mobile top-ups,
+  game credits, and domestic remittance, adopted in 7,000+ outlets), Sendah
+  Remit (bank-grade interoperable international and domestic remittance), Sendah
+  (a B2C gift-remittance service for Overseas Filipinos), and Asira (Indonesian
+  B2B2C/B2C lending, insurance, and investment apps). Ayannah is backed by 500
+  Global. This profile is maintained by the API Evangelist network; the company
+  publishes a corporate marketing site but no public developer portal, API
+  documentation, or machine-readable API specification at this time.
 url: https://raw.githubusercontent.com/api-evangelist/ayannah/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +22,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/6215e70ea9ae1c443f61a2b5/t/6231558f6897d337f4bce90f/1647400403278/dan-freeman-G4E6PcOt4Ps-unsplash.jpg?format=1500w
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Payments
+- Remittance
+- Digital Commerce
+- Emerging Markets
+- Philippines
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ayannah-domain-security.yml
 - type: Website
   url: https://ayannah.com
+- type: Blog
+  url: https://www.ayannah.com/news
+- type: PrivacyPolicy
+  url: https://www.ayannah.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
