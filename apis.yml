@@ -34,7 +34,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: http://static1.squarespace.com/static/6215e70ea9ae1c443f61a2b5/t/6231558f6897d337f4bce90f/1647400403278/dan-freeman-G4E6PcOt4Ps-unsplash.jpg?format=1500w
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
